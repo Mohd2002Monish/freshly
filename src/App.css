@@ -79,7 +79,6 @@
 }
 .shapes {
   position: absolute;
-
   left: 15%;
   top: -70%;
 }
@@ -1016,18 +1015,16 @@
   }
   .shapes {
     position: absolute;
-    display: flex;
 
-    justify-content: flex-start;
-    left: 10%;
-    top: -30%;
+    left: 15%;
+    top: -20%;
+    transform: rotate(-20deg);
   }
   .shapes > svg {
     position: absolute;
-
-    width: 911.267px;
+    width: 941.267px;
     height: 718.925px;
-    /* transform: rotate(15.676deg); */
+    transition: ;
   }
   .shapes2 > svg {
     position: absolute;
