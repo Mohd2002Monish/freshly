@@ -958,7 +958,7 @@
 }
 .shapes3 > svg {
   position: absolute;
-  top: 705%;
+  top: 712%;
   right: 20%;
   transform: rotate(180deg);
 }
@@ -974,10 +974,8 @@
   }
   .shapes3 > svg {
     position: absolute;
-    top: 436%;
+    top: 430%;
     right: 30%;
-
-    transform: rotate(180deg);
   }
   .icon1 {
     position: absolute;
@@ -1015,7 +1013,6 @@
   }
   .shapes {
     position: absolute;
-
     left: 15%;
     top: -20%;
     transform: rotate(-20deg);
@@ -1024,10 +1021,12 @@
     position: absolute;
     width: 941.267px;
     height: 718.925px;
-    transition: ;
   }
   .shapes2 > svg {
+    width: 400px;
     position: absolute;
-    top: 300%;
+    top: 295%;
+    right: 10%;
+    transform: rotate(180deg);
   }
 }
