@@ -28,7 +28,7 @@ function ExclusiveBundle() {
       </div>
       <div className="grid4">
         {" "}
-        <div style={{ marginTop: "40px" }} className="flexC ">
+        <div style={{ marginTop: "40px" }} className="flexC blured">
           <div className="exclusiveOffer flex">
             <img
               src="https://s3-alpha-sig.figma.com/img/c11a/472f/a4905dd085718bae4bc38f09b8dafaea?Expires=1699228800&Signature=qUKPooPTIqRSprc~4nr7cLM0s6sDmcuiW2jj5ch28ZQQEtcZW9bsz2emk9PQcmhsyH5Wm5A6YuoW3AUMm2Aspc8FoVdaxpWoxl0nGQXubq2ii1btL8neHcen~HBSp-ukvB3i81Jy-pydWeLfDTV7mHFAEuRwcFZoteeLIykFfkWiG2Ip4HHT0P4hPZUs0rBDatcDondO0T1wywgo1iRef6b5KDgwUFw92pGfRiNGSZFSUJJYKVVgY2mRG-mM9KXMoXmIb5f-dvjghlbff3fQrIJPqb9q8VDH20VOJD6tBZtVFiVAs-gi4fV8q5GRqlA8heJ3gHflUTlk4UaMbqQYIw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
@@ -1362,7 +1362,7 @@ function ExclusiveBundle() {
             </div>
           </div>
         </div>{" "}
-        <div style={{ marginTop: "40px" }} className="flexC ">
+        <div style={{ marginTop: "40px" }} className="flexC blured ">
           <div className="exclusiveOffer flex">
             <img
               src="https://s3-alpha-sig.figma.com/img/c11a/472f/a4905dd085718bae4bc38f09b8dafaea?Expires=1699228800&Signature=qUKPooPTIqRSprc~4nr7cLM0s6sDmcuiW2jj5ch28ZQQEtcZW9bsz2emk9PQcmhsyH5Wm5A6YuoW3AUMm2Aspc8FoVdaxpWoxl0nGQXubq2ii1btL8neHcen~HBSp-ukvB3i81Jy-pydWeLfDTV7mHFAEuRwcFZoteeLIykFfkWiG2Ip4HHT0P4hPZUs0rBDatcDondO0T1wywgo1iRef6b5KDgwUFw92pGfRiNGSZFSUJJYKVVgY2mRG-mM9KXMoXmIb5f-dvjghlbff3fQrIJPqb9q8VDH20VOJD6tBZtVFiVAs-gi4fV8q5GRqlA8heJ3gHflUTlk4UaMbqQYIw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"

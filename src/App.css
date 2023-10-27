@@ -78,13 +78,17 @@
   justify-content: center;
 }
 .shapes {
-  width: 59%;
-  position: relative;
-  margin: 0px 10.6%;
+  position: absolute;
+
+  left: 15%;
+  top: -70%;
 }
 .shapes > svg {
   position: absolute;
-  width: 100%;
+
+  width: 811.267px;
+  height: 818.925px;
+  transform: rotate(-15.676deg);
 }
 .tag1 {
   color: #252641;
@@ -172,14 +176,12 @@
   flex-shrink: 0;
   border-radius: 20px;
   background: rgba(255, 255, 255, 0.8);
-
   backdrop-filter: blur(10px);
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  left: 45%;
-  top: 92%;
+  margin-left: 42%;
+  margin-top: -10%;
 }
 .calandericon {
   width: 50px;
@@ -552,9 +554,10 @@
 .studentCardCountainer {
   margin-top: 110px;
   margin-left: 7%;
+  gap: 50px;
 }
 .studentCardCountainer2 {
-  width: 551px;
+  width: 501px;
 }
 .benifitTag > p {
   width: 121px;
@@ -578,7 +581,7 @@
   display: flex;
   padding: 10px;
 
-  width: 535px;
+  width: 505px;
   height: 272px;
   flex-direction: column;
 }
@@ -586,7 +589,7 @@
   justify-content: center;
   align-items: center;
 
-  gap: 15px;
+  gap: 5px;
   height: 100px;
 }
 
@@ -613,11 +616,12 @@
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .StudentID {
-  margin-top: 50px;
-  width: 591px;
+  margin-top: 100px;
+
+  width: 551px;
   height: 358px;
   display: flex;
-  padding: 37px 75px;
+  padding: 10px 0px;
   gap: 10px;
   justify-content: center;
   border-radius: 20px;
@@ -787,7 +791,7 @@
   margin-left: -200px;
 }
 .exclusiveOffer {
-  width: 820px;
+  width: 650px;
   height: 302px;
   border-radius: 19.822px;
   background: #fff;
@@ -830,11 +834,9 @@
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
-  line-height: 26px; /* 185.714% */
+  line-height: 26px;
 }
-.logoRow {
-  gap: 5px;
-}
+
 .footercategories > h1 {
   color: #0a033c;
   font-family: Raleway;
@@ -843,6 +845,22 @@
   font-weight: 700;
   line-height: normal;
 }
+.footercategories > h2 {
+  color: var(--pri, #0b7077);
+  font-family: Raleway;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+}
+.footerLinks > h2 {
+  color: var(--pri, #0b7077);
+  font-family: Raleway;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+}
 .footercategories {
   color: var(--pri, #0b7077);
   font-family: Raleway;
@@ -850,28 +868,22 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  margin-top: -100px;
 }
 .footerLinks > h1 {
   color: #0a033c;
   font-family: Raleway;
-  font-size: 15px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
-.footerLinks {
-  color: var(--pri, #0b7077);
+
+.footeremail > p {
+  color: #0b7077;
+  text-align: center;
   font-family: Raleway;
   font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-}
-.footeremail > p {
-  color: #0a033c;
-  text-align: right;
-  font-family: Raleway;
-  font-size: 15px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -891,9 +903,7 @@
   padding-left: 16px;
   font-family: Raleway;
 }
-.footeremail {
-  flex-direction: column;
-}
+
 .footeremail > div > button {
   display: flex;
   width: 128px;
@@ -912,6 +922,23 @@
   justify-content: center;
   align-items: center;
 }
+.logoRow {
+  gap: 5px;
+}
+.footeremail {
+  flex-direction: column;
+  margin-top: -150px;
+}
+.footercategories {
+  margin-top: -100px;
+  width: 100%;
+  margin-right: 30px;
+}
+.footerLinks {
+  margin-top: -190px;
+
+  margin-right: 30px;
+}
 .grid3 {
   display: grid;
   grid-template-columns: repeat(4, 250px);
@@ -922,4 +949,88 @@
   grid-template-columns: repeat(3, 780px);
   overflow: hidden;
   justify-content: center;
+}
+.blured {
+  filter: blur(3.5px);
+}
+.shapes2 > svg {
+  position: absolute;
+  top: 490%;
+}
+.shapes3 > svg {
+  position: absolute;
+  top: 705%;
+  right: 20%;
+  transform: rotate(180deg);
+}
+@media only screen and (min-width: 1300px) {
+  .calander {
+    margin-left: 52%;
+    margin-top: -12%;
+  }
+  .homePic {
+    position: absolute;
+    left: 48%;
+    top: 113px;
+  }
+  .shapes3 > svg {
+    position: absolute;
+    top: 436%;
+    right: 30%;
+
+    transform: rotate(180deg);
+  }
+  .icon1 {
+    position: absolute;
+    left: 89%;
+    top: 34%;
+  }
+  .studentCardCountainer {
+    margin-top: 110px;
+    margin-left: 7%;
+    gap: 140px;
+  }
+  .StudentID {
+    margin-top: 100px;
+    width: 591px;
+    height: 358px;
+    display: flex;
+    padding: 37px 75px;
+    gap: 10px;
+    justify-content: center;
+    border-radius: 20px;
+    background: #d2e6e4;
+    overflow: hidden;
+  }
+  .studentCardCountainer {
+    margin-top: 110px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+  .staffTrainingContainer {
+    justify-content: center;
+  }
+  .giftCard {
+    justify-content: space-between;
+  }
+  .shapes {
+    position: absolute;
+    display: flex;
+
+    justify-content: flex-start;
+    left: 10%;
+    top: -30%;
+  }
+  .shapes > svg {
+    position: absolute;
+
+    width: 911.267px;
+    height: 718.925px;
+    /* transform: rotate(15.676deg); */
+  }
+  .shapes2 > svg {
+    position: absolute;
+    top: 300%;
+  }
 }
